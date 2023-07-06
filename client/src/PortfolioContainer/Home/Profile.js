@@ -8,33 +8,44 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="contact-icons">
-            <a
-              href="https://www.linkedin.com/in/andrew-e-lawrence/ "
+
+            <a 
+              href="https://www.linkedin.com/in/andrew-e-lawrence/"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <i className="fa fa-linkedin"></i>
+            > 
+            <button className="linked-in-btn">
+              <i class="fa fa-linkedin"></i>
+            </button>
             </a>
-            <a
+
+            <a 
               href="https://github.com/andrewelawrence"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-github-square"></i>
+            <button className="github-btn">
+              <i class="fa fa-github-square"></i>
+            </button>
             </a>
-            <a
+
+            <a 
               href="https://www.thingiverse.com/andrewelawrence/designs"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-crop"></i>
+            <button className="thingiverse-btn">
+              <i class="fa fa-crop"></i>
+            </button>
             </a>
-            <a
+            <a 
               href="mailto:andrew.e.lawrence@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-inbox"></i>
+            <button className="inbox-btn">
+              <i class="fa fa-inbox"></i>
+            </button>
             </a>
           </div>
           <div className="profile-name-and-typewriter">
@@ -72,9 +83,9 @@ export default function Profile() {
                     }}
                   />
                 </h1>
-                <span className="profile-tagline">
-                  POSSIBLY SOME TAGLINE GOES HERE.
-                </span>
+                {/* <span className="profile-tagline">
+                POSSIBLY SOME TAGLINE GOES HERE.
+                </span> */}
               </span>
             </div>
             <div className="resume-button">
