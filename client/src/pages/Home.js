@@ -1,53 +1,14 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./Profile.css";
+import "./Home.css";
+import "../App.css";
+import NavBar from "./Nav-Bar";
+import SiteButtons from "./Site-Buttons";
 
-export default function Profile() {
+export default function Home() {
   return (
-    <div className="profile-container">
-      <div className="profile-parent">
-        <div className="profile-details">
-          <div className="contact-icons">
-
-            <a 
-              href="https://www.linkedin.com/in/andrew-e-lawrence/"
-              target="_blank"
-              rel="noopener noreferrer"
-            > 
-            <button className="linked-in-btn">
-              <i class="fa fa-linkedin"></i>
-            </button>
-            </a>
-
-            <a 
-              href="https://github.com/andrewelawrence"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            <button className="github-btn">
-              <i class="fa fa-github-square"></i>
-            </button>
-            </a>
-
-            <a 
-              href="https://www.thingiverse.com/andrewelawrence/designs"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            <button className="thingiverse-btn">
-              <i class="fa fa-crop"></i>
-            </button>
-            </a>
-            <a 
-              href="mailto:andrew.e.lawrence@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            <button className="inbox-btn">
-              <i class="fa fa-inbox"></i>
-            </button>
-            </a>
-          </div>
+    <>
+      <SiteButtons />
           <div className="profile-name-and-typewriter">
             <div className="profile-name">
               <span>
@@ -98,8 +59,9 @@ export default function Profile() {
               </a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+      <NavBar />
+      </>
+
+    
   );
 }
