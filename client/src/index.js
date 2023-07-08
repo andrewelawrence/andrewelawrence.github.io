@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Information from "./pages/Information";
