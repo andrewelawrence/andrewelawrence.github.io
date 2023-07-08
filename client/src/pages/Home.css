@@ -1,15 +1,19 @@
-.linked-in-btn, .github-btn, .thingiverse-btn, .inbox-btn{
+.linked-in-btn,
+.github-btn,
+.thingiverse-btn,
+.inbox-btn {
   align-items: center;
   appearance: none;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 2px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #2C3539;
+  color: #2c3539;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
+  font-family: "JetBrains Mono", monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -20,25 +24,36 @@
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow 0.15s, transform 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  will-change: box-shadow, transform;
   font-size: 25px;
 }
 
-.linked-in-btn:focus, .github-btn:focus, .thingiverse-btn:focus, .inbox-btn:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+.linked-in-btn:focus,
+.github-btn:focus,
+.thingiverse-btn:focus,
+.inbox-btn:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
 }
 
-.linked-in-btn:hover, .github-btn:hover, .thingiverse-btn:hover, .inbox-btn:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+.linked-in-btn:hover,
+.github-btn:hover,
+.thingiverse-btn:hover,
+.inbox-btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
-.linked-in-btn:active, .github-btn:active, .thingiverse-btn:active, .inbox-btn:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
+.linked-in-btn:active,
+.github-btn:active,
+.thingiverse-btn:active,
+.inbox-btn:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }

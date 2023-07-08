@@ -7,8 +7,6 @@
 // import NavBar from "./pages/Nav-Bar";
 // import SiteButtons from "./pages/Site-Buttons";
 
-
-
 // function App() {
 //   return (
 //     <div className="App">
@@ -22,7 +20,7 @@
 //             <li> <Link to="/about">About</Link> </li>
 //           </ul>
 //       </div> */}
-//     </div>   
+//     </div>
 //   );
 // }
 
