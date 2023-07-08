@@ -6,11 +6,11 @@ import NavBar from "./Nav-Bar";
 export default function Information() {
   return (
     <>
-    <SiteButtons />
-    <div className="information page">
-         <h1> INFORMATION PAGE </h1>
-    </div>
-    <NavBar />
+      <SiteButtons />
+      <div className="information page">
+        <h1> INFORMATION PAGE </h1>
+      </div>
+      <NavBar />
     </>
   );
 }
