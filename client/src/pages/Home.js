@@ -46,15 +46,15 @@ export default function Home() {
                 </span> */}
           </span>
         </div>
-        <div className="resume-button">
-          <a
-            href="Andrew Lawrence Resume.pdf"
-            download="Andrew Lawrence Resume.pdf"
-          >
-            {" "}
-            <button className="get-resume"> Get My Resume </button>
-          </a>
-        </div>
+      </div>
+      <div className="resume-button">
+        <a
+          href="Andrew Lawrence Resume.pdf"
+          download="Andrew Lawrence Resume.pdf"
+        >
+          {" "}
+          <button className="get-resume"> Get My Resume </button>
+        </a>
       </div>
       <NavBar />
     </>

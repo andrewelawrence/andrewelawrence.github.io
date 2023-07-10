@@ -1,9 +1,4 @@
 body {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
-
   background: linear-gradient(to right, #2c3539 25px, transparent 1px) 5% 5%,
     linear-gradient(to bottom, #2c3539 25px, transparent 1px) 5% 5%,
     linear-gradient(to left, #2c3539 25px, transparent 1px) 90% 90%,
