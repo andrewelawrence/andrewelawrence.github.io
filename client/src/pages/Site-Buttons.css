@@ -1,6 +1,5 @@
 .contact-icons {
-  margin-left: 8%;
-  margin-top: 5%;
+  transform: translate(-30%);
 }
 
 .linked-in-btn,
@@ -18,7 +17,7 @@
   color: #2c3539;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Moderne Sans", monospace;
   height: 45px;
   justify-content: center;
   line-height: 1;
