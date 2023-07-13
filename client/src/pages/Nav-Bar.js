@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="NavBar">
-      <ul>
+      <ul className="Home">
         <li>
           {" "}
           <Link to="/">Home</Link>
         </li>
       </ul>
-      <ul>
+      <ul className="Projects">
         <li>
           {" "}
           <Link to="/projects">Projects</Link>
         </li>
       </ul>
-      <ul>
+      <ul className="Information">
         <li>
           {" "}
           <Link to="/information">Information</Link>
