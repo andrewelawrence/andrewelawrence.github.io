@@ -6,7 +6,11 @@ export default function SiteButtons() {
   return (
     <div className="contact-icons">
       <div class="menu-container">
-        <button class="hamburger"></button>
+        <i>
+          <button className="hamburger">
+            <i class="fa fa-bars"></i>
+          </button>
+        </i>
         <div class="menu-items">
           <ul className="Home">
             <li>
