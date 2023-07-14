@@ -1,7 +1,7 @@
 import React from "react";
 import "./Information.css";
 import SiteButtons from "./Site-Buttons";
-import NavBar from "./Nav-Bar";
+// import NavBar from "./Nav-Bar";
 
 export default function Information() {
   return (

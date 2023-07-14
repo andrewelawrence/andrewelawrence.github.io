@@ -5,9 +5,79 @@ import { Link } from "react-router-dom";
 export default function SiteButtons() {
   return (
     <div className="contact-icons">
-      <details>
+      <div class="menu-container">
+        <button class="hamburger"></button>
+        <div class="menu-items">
+          <ul className="Home">
+            <li>
+              {" "}
+              <Link to="/">Home</Link>
+            </li>
+          </ul>{" "}
+          <ul className="Projects">
+            <li>
+              {" "}
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
+          <ul className="Information">
+            <li>
+              {" "}
+              <Link to="/information">About Me</Link>
+            </li>
+          </ul>
+          <a
+            href="Andrew Lawrence Resume.pdf"
+            download="Andrew Lawrence Resume.pdf"
+          >
+            {" "}
+            <button className="Resume"> Download Resume </button>
+          </a>
+        </div>
+      </div>
+
+      {/* <section class="p-menu1">
+        <nav id="navbar" class="navigation" role="navigation">
+          <input id="toggle1" type="checkbox" />
+          <label class="hamburger1" for="toggle1">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+          </label>
+
+          <nav class="menu1">
+            <ul className="Home">
+              <li>
+                {" "}
+                <Link to="/">Home</Link>
+              </li>
+            </ul>{" "}
+            <ul className="Projects">
+              <li>
+                {" "}
+                <Link to="/projects">Projects</Link>
+              </li>
+            </ul>
+            <ul className="Information">
+              <li>
+                {" "}
+                <Link to="/information">About Me</Link>
+              </li>
+            </ul>
+            <a
+              href="Andrew Lawrence Resume.pdf"
+              download="Andrew Lawrence Resume.pdf"
+            >
+              {" "}
+              <button className="Resume"> Download Resume </button>
+            </a>
+          </nav>
+        </nav>
+      </section> */}
+
+      {/* <details>
         <summary></summary>
-        <nav class="menu">
+        <nav class="menu1">
           <ul className="Home">
             <li>
               {" "}
@@ -34,7 +104,7 @@ export default function SiteButtons() {
             <button className="Resume"> Download Resume </button>
           </a>
         </nav>
-      </details>
+      </details> */}
       <a
         href="https://www.linkedin.com/in/andrew-e-lawrence/"
         target="_blank"

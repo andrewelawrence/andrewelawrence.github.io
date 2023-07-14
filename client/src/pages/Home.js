@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
-import NavBar from "./Nav-Bar";
+// import NavBar from "./Nav-Bar";
 import SiteButtons from "./Site-Buttons";
 
 export default function Home() {

@@ -46,7 +46,8 @@
 .linked-in-btn:focus,
 .github-btn:focus,
 .thingiverse-btn:focus,
-.inbox-btn:focus {
+.inbox-btn:focus,
+.menu-container:focus {
   box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   outline: none;
@@ -55,7 +56,8 @@
 .linked-in-btn:hover,
 .github-btn:hover,
 .thingiverse-btn:hover,
-.inbox-btn:hover {
+.inbox-btn:hover,
+.menu-container:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   transform: translateY(-2px);
@@ -65,19 +67,20 @@
 .linked-in-btn:active,
 .github-btn:active,
 .thingiverse-btn:active,
-.inbox-btn:active {
+.inbox-btn:active,
+.menu-container:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
   outline: none;
 }
 
-details {
+/* details {
   margin-right: 5px;
 }
 summary {
   writing-mode: vertical-lr;
   text-align: center;
-  /* transition: transform 200ms ease-in-out 0s; */
+  transition: transform 200ms ease-in-out 0s;
   align-items: center;
   appearance: none;
   background-color: #f5f5f5;
@@ -197,4 +200,171 @@ details[open]::before {
   100% {
     opacity: 0;
   }
+} */
+/* 
+.p-menu1 {
+  height: 100%;
+  margin-right: 5px;
+  text-align: center;
+  /* align-items: center; 
+  appearance: none;
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #2c3539;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Moderne Sans", monospace;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 25px;
+}
+
+Hamburger .hamburger1 {
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  /* z-index: 120; 
+}
+
+.hamburger1 div {
+  background-color: rgb(61, 61, 61);
+  position: relative;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked + .hamburger1 .top {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-top: 22.5px;
+}
+
+#toggle1:checked + .hamburger1 .meat {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+
+#toggle1:checked + .hamburger1 .bottom {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+#toggle1:checked ~ .menu1 {
+  height: 340px;
+}
+
+.menu1 {
+  width: 100%;
+  background-color: #02173f;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.link1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  font: 700 20px "Oswald", sans-serif;
+}
+
+.link1:hover {
+  background-color: #fff;
+  color: rgb(61, 61, 61);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+} */
+
+.menu-container {
+  appearance: none;
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #2c3539;
+  cursor: pointer;
+  font-family: "Moderne Sans", monospace;
+  height: 45px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.hamburger {
+  width: 0.875em;
+  height: 0.875em;
+}
+
+.menu-items {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.menu-items.show {
+  width: 300 px;
 }
