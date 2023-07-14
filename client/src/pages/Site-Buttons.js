@@ -1,9 +1,40 @@
 import React from "react";
 import "./Site-Buttons.css";
+import { Link } from "react-router-dom";
 
 export default function SiteButtons() {
   return (
     <div className="contact-icons">
+      <details>
+        <summary></summary>
+        <nav class="menu">
+          <ul className="Home">
+            <li>
+              {" "}
+              <Link to="/">Home</Link>
+            </li>
+          </ul>{" "}
+          <ul className="Projects">
+            <li>
+              {" "}
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
+          <ul className="Information">
+            <li>
+              {" "}
+              <Link to="/information">About Me</Link>
+            </li>
+          </ul>
+          <a
+            href="Andrew Lawrence Resume.pdf"
+            download="Andrew Lawrence Resume.pdf"
+          >
+            {" "}
+            <button className="Resume"> Download Resume </button>
+          </a>
+        </nav>
+      </details>
       <a
         href="https://www.linkedin.com/in/andrew-e-lawrence/"
         target="_blank"

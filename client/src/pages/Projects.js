@@ -7,10 +7,10 @@ export default function Projects() {
   return (
     <>
       <SiteButtons />
-      <div className="information page">
+      <div className="projects-page">
         <h1> PROJECTS PAGE </h1>
       </div>
-      <NavBar />
+      {/* <NavBar /> */}
     </>
   );
 }

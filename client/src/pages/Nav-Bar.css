@@ -1,3 +1,10 @@
+.NavBar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .Home,
 .Projects,
 .Information,
@@ -13,13 +20,13 @@
   cursor: pointer;
   display: inline-flex;
   height: 45px;
-  justify-content: center;
+  /* justify-content: center; */
   line-height: 1;
   list-style: none;
   overflow: hidden;
   padding-left: 10px;
   padding-right: 10px;
-  position: relative;
+  /* position: relative; */
   text-align: right;
   text-decoration: none;
   transition: box-shadow 0.15s, transform 0.15s;
@@ -54,4 +61,6 @@
 .Resume:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
+  user-select: none;
+  -webkit-user-select: none;
 }

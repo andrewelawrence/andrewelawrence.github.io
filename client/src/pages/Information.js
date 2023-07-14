@@ -7,10 +7,10 @@ export default function Information() {
   return (
     <>
       <SiteButtons />
-      <div className="information page">
+      <div className="information-page">
         <h1> INFORMATION PAGE </h1>
       </div>
-      <NavBar />
+      {/* <NavBar /> */}
     </>
   );
 }

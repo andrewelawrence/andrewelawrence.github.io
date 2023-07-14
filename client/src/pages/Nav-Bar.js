@@ -6,37 +6,39 @@ export default function NavBar() {
   return (
     <>
       <div className="NavBar">
-        <ul className="Home">
-          <li>
+        <div className="NavBar-Home">
+          <ul className="Home">
+            <li>
+              {" "}
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="NavBar-Projects">
+          <ul className="Projects">
+            <li>
+              {" "}
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="NavBar-Information">
+          <ul className="Information">
+            <li>
+              {" "}
+              <Link to="/information">Information</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="Get-Resume">
+          <a
+            href="Andrew Lawrence Resume.pdf"
+            download="Andrew Lawrence Resume.pdf"
+          >
             {" "}
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul className="Projects">
-          <li>
-            {" "}
-            <Link to="/projects">Projects</Link>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul className="Information">
-          <li>
-            {" "}
-            <Link to="/information">Information</Link>
-          </li>
-        </ul>
-      </div>
-      <div className="Get-Resume">
-        <a
-          href="Andrew Lawrence Resume.pdf"
-          download="Andrew Lawrence Resume.pdf"
-        >
-          {" "}
-          <button className="Resume"> Want my resume? </button>
-        </a>
+            <button className="Resume"> Want My Resume? </button>
+          </a>
+        </div>
       </div>
     </>
   );

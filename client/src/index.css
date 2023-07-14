@@ -1,11 +1,10 @@
 body {
   min-height: 100vh;
   margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background-color: #f5f5f5; /*White Smoke*/
-  overflow-y: overlay;
+  overflow: auto;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
