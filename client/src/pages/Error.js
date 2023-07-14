@@ -1,11 +1,14 @@
 import React from "react";
+import SiteButtons from "./Site-Buttons";
 
 export default function ErrorPage() {
   return (
-    <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-    </div>
-
+    <>
+      <SiteButtons />
+      <div className="Profile">
+        <h1> ERROR 404</h1>
+        <p>Page not found. Sorry!</p>
+      </div>
+    </>
   );
 }

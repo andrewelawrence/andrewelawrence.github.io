@@ -18,13 +18,6 @@ body {
 }
 
 @font-face {
-  font-family: "Varela";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./Assets/fonts/Varela-Regular.ttf");
-}
-
-@font-face {
   font-family: "Moderne Sans";
   font-style: normal;
   font-weight: normal;

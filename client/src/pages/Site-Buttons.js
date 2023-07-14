@@ -14,13 +14,13 @@ export default function SiteButtons() {
             {" "}
             Home{" "}
           </Link>
-          <Link to="/projects" className="projects">
-            {" "}
-            Projects{" "}
-          </Link>
           <Link to="/information" className="information">
             {" "}
             Information{" "}
+          </Link>
+          <Link to="/projects" className="projects">
+            {" "}
+            Projects{" "}
           </Link>
           <a
             href="resume.pdf"
