@@ -10,15 +10,24 @@ export default function SiteButtons() {
           <i class="fa fa-bars"></i>
         </button>
         <div class="menu-items">
-          <Link to="/"> Home </Link>
-          <Link to="/projects"> Projects </Link>
-          <Link to="/information"> Information </Link>
+          <Link to="/" className="home">
+            {" "}
+            Home{" "}
+          </Link>
+          <Link to="/projects" className="projects">
+            {" "}
+            Projects{" "}
+          </Link>
+          <Link to="/information" className="information">
+            {" "}
+            Information{" "}
+          </Link>
           <a
-            href="Andrew Lawrence Resume.pdf"
+            href="resume.pdf"
             download="Andrew Lawrence Resume.pdf"
+            className="resume"
           >
             <span>Resume</span>
-            {/* <button className="resume-btn">Resume</button> */}
           </a>
         </div>
       </div>

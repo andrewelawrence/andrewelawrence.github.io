@@ -1,7 +1,6 @@
 import React from "react";
 import "./Information.css";
 import SiteButtons from "./Site-Buttons";
-// import NavBar from "./Nav-Bar";
 
 export default function Information() {
   return (
@@ -10,7 +9,6 @@ export default function Information() {
       <div className="information-page">
         <h1> INFORMATION PAGE </h1>
       </div>
-      {/* <NavBar /> */}
     </>
   );
 }

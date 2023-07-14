@@ -128,9 +128,13 @@
   display: flex;
 }
 
-.menu-items:hover {
-  color: #2c3539;
-}
 .menu-container:hover + .contact-icons {
   display: none;
+}
+
+.home:hover,
+.projects:hover,
+.information:hover,
+.resume:hover {
+  filter: opacity(100%);
 }
