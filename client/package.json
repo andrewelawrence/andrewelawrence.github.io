@@ -1,8 +1,27 @@
 {
-  "homepage": "https://andrewelawrence.com",
+  "author": {
+    "name": "Andrew Lawrence",
+    "email": "andrew.e.lawrence@gmail.com",
+    "url": "andrewelawrence.com"
+  },
   "name": "client",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Andrew Lawrence Portfolio Website. Developer, Programmer, 3D Printer, Student.",
   "private": true,
+  "keywords": [
+    "Portfolio",
+    "Developer",
+    "Programmer",
+    "CAD",
+    "Design",
+    "Student",
+    "Tufts",
+    "3D Printer"
+  ],
+  "homepage": "https://andrewelawrence.github.io",
+  "bugs": {
+    "email": "andrew.e.lawrence@gmail.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
