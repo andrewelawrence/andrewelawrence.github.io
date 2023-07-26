@@ -42,8 +42,7 @@ export default function Home() {
         {/* <div className="Bio">
           <h1></h1>
           <span className="profile-tagline">
-            I firmly believe that in our to safe guard our future we must focus
-            on safe and smart product design.
+          SOMETHING HERE
           </span>
         </div> */}
       </div>
