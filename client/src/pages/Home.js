@@ -39,12 +39,6 @@ export default function Home() {
             </h1>
           </span>
         </div>
-        {/* <div className="Bio">
-          <h1></h1>
-          <span className="profile-tagline">
-          SOMETHING HERE
-          </span>
-        </div> */}
       </div>
     </>
   );
