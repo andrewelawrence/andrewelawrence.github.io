@@ -10,24 +10,31 @@ export default function Information() {
         <div className="aboutMe">
           <h1> About Me. </h1>
           <ul>Home : Lexington MA</ul>
-          <ul>School : Tufts 2026</ul>
-          <ul></ul>
-          <p>
-            I'm an undergraduate student who believes that tech product design
-          </p>
+          <ul>School : Tufts University 2026</ul>
+          <ul>
+            An undergraduate student who believes that tech product design
+          </ul>
         </div>
-        <div className="interests">
+        <div>
           <h1>My Interests.</h1>
-          <p>3D printing <span>Watching that first layer be put down never gets old! I love </span></p>
-          <p>PC hardware and design</p>
-          <p>
-            Spending time outside{" "}
+          <p className="interests">
+            3D printing{" "}
             <span>
-              I'm an avid hiker, biker, and general -iker. I love playing soccer
-              in the summer and skiing in the winter.
+              Watching that first layer be put down never gets old! I love{" "}
             </span>
           </p>
-          <p>
+          <p className="interests">
+            PC hardware and design
+            <span></span>
+          </p>
+          <p className="interests">
+            Spending time outside{" "}
+            <span>
+              I'm an avid hiker and biker. I love playing soccer in the summer
+              and skiing in the winter.
+            </span>
+          </p>
+          <p className="interests">
             Sci-Fi Novels{" "}
             <span>
               I'm currently reading <i>Time Enough For Love</i> by Robert A.
