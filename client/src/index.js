@@ -6,7 +6,6 @@ import "./index.css";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Information from "./pages/Information";
 import reportWebVitals from "./reportWebVitals";
 import ErrorPage from "./pages/Error";
 
@@ -24,11 +23,6 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/information",
-    element: <Information />,
     errorElement: <ErrorPage />,
   },
   {
