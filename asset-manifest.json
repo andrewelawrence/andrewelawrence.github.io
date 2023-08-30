@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.485f9414.css",
-    "main.js": "/static/js/main.edc95a15.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/Moderne Sans Font.ttf": "/static/media/Moderne Sans Font.49a2c9e732a9c4b8fc82.ttf",
-    "index.html": "/index.html",
-    "main.485f9414.css.map": "/static/css/main.485f9414.css.map",
-    "main.edc95a15.js.map": "/static/js/main.edc95a15.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/andrewelawrence.github.io/static/css/main.80823724.css",
+    "main.js": "/andrewelawrence.github.io/static/js/main.0e9200e5.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/andrewelawrence.github.io/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Moderne Sans Font.ttf": "/andrewelawrence.github.io/static/media/Moderne Sans Font.49a2c9e732a9c4b8fc82.ttf",
+    "index.html": "/andrewelawrence.github.io/index.html",
+    "main.80823724.css.map": "/andrewelawrence.github.io/static/css/main.80823724.css.map",
+    "main.0e9200e5.js.map": "/andrewelawrence.github.io/static/js/main.0e9200e5.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/andrewelawrence.github.io/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.485f9414.css",
-    "static/js/main.edc95a15.js"
+    "static/css/main.80823724.css",
+    "static/js/main.0e9200e5.js"
   ]
 }
