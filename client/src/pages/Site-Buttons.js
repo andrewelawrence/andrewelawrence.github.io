@@ -19,7 +19,7 @@ export default function SiteButtons() {
             Projects{" "}
           </Link>
           <a
-            href="resume.pdf"
+            href="Andrew Lawrence Resume.pdf"
             download="Andrew Lawrence Resume.pdf"
             className="resume"
           >
