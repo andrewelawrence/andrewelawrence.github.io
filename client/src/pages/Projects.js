@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <SiteButtons />
       <div className="projects-page">
-        <h1 className="AIessay"> Risk Analysis of Growth in AI Capabilities</h1>
+        {/* <h1 className="AIessay"> Risk Analysis of Growth in AI Capabilities</h1>
         <p>
           <a
             href="ML-growth-paper.pdf"
@@ -31,6 +31,11 @@ export default function Projects() {
           efficency, I also researched and developed a custom Marlin firmware
           for the Ender 3 Pro 4.2.2 printer with a BL-Touch auto leveling system
           and custom power supply.
+        </p> */}
+        <p>
+          {" "}
+          This page is being updated and is under development. For now, please
+          see my resume for project highlights.
         </p>
       </div>
     </>
