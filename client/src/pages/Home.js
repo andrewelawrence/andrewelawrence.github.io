@@ -25,12 +25,15 @@ export default function Home() {
                       .typeString(" undergraduate student at Tufts University,")
                       .pauseFor(750)
                       .deleteChars(44)
+                      .typeString(" digital systems transformation intern,")
+                      .pauseFor(750)
+                      .deleteChars(39)
                       .typeString(" developing programmer,")
                       .pauseFor(750)
                       .deleteChars(11)
-                      .typeString("CAD designer,")
+                      .typeString("designer,")
                       .pauseFor(750)
-                      .deleteChars(17)
+                      .deleteChars(13)
                       .typeString("er.")
                       .start();
                   }}
@@ -42,8 +45,8 @@ export default function Home() {
         <div className="bottomSection">
           {" "}
           <p className="bio">
-            I'm looking to build my awareness of product design theory and large
-            data utilization to create a safer relationship with technology for
+            I'm looking to build my awareness of systems design and algorithmic
+            fairness to create a safer relationship with technology for
             everyone.{" "}
           </p>
         </div>
