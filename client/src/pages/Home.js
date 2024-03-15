@@ -28,6 +28,9 @@ export default function Home() {
                       .typeString(" digital systems transformation intern,")
                       .pauseFor(750)
                       .deleteChars(39)
+                      .typeString(" research assistant,")
+                      .pauseFor(750)
+                      .deleteChars(20)
                       .typeString(" developing programmer,")
                       .pauseFor(750)
                       .deleteChars(11)
@@ -46,8 +49,7 @@ export default function Home() {
           {" "}
           <p className="bio">
             I'm looking to build my awareness of systems design and algorithmic
-            fairness to create a safer relationship with technology for
-            everyone.{" "}
+            fairness to promote social good.{" "}
           </p>
         </div>
       </div>

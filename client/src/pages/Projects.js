@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <SiteButtons />
       <div className="projects-page">
-        <h1 className="MatrixVisualizer">3D Linear Transformation Engine</h1>
+        <h1 className="MatrixVisualizer">"Algorithmic Realism: Data Science Practices to Promote Social Justice”</h1>
         {/* <p>
           <a
             href="https://github.com/andrewelawrence/Visualizing-3D-Linear-Transformations"
@@ -19,9 +19,32 @@ export default function Projects() {
           </a>
         </p> */}
         <p>
-          I'm currently working on a simple 3D space engine that uses MATLAB
-          integration with C++ to map user movements of a plane, represented as
-          a dot, against 3D space.
+        I'm currently working with UMSI Professor Ben Green on his upcoming book.
+        The book discusses the methodological issues that enable data science 
+        practices to perpetuate discrimination and proposes a new methodology
+        in response. I am working with Professor Green to adjust the content 
+        and ensure that it explains concepts in a clear and effective manner.
+        </p>
+        <br></br>
+        <h1 className="MatrixVisualizer">Simulating Measureable Locality Affects</h1>
+        {/* <p>
+          <a
+            href="https://github.com/andrewelawrence/Visualizing-3D-Linear-Transformations"
+            classname="MatrixVisualizerLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub Repository
+          </a>
+        </p> */}
+        <p>
+        I've implemented a blocked, unboxed two-dimensional array, UArray2b, in
+        C based on Dave Hanson’s unboxed array interface. From there I developed
+        a polymorphic method suite that used the UArray2b interface in 
+        conjunction with an unblocked UArray2 interface I also developed in 
+        order to measure mapping speeds through a series of PPM image rotations.
+        I achieved a final measured best-case-scenario cache hit rate increase
+        of 50% compared to a traditional UArray2 by optimizing element locality.
         </p>
         <br></br>
         <h1 className="Gerp">Gerp - a UNIX Grep Derivative</h1>
@@ -48,13 +71,13 @@ export default function Projects() {
           Ethical Evaluation of Decision-Making Algorithms
         </h1>
         <p>
-          <a
+          {/* <a
             href="ML-growth-paper.pdf"
             className="AlgoEssayTitle"
             download="Algo-ethical-analysis-paper.pdf"
           >
             Download Paper Here
-          </a>
+          </a> */}
         </p>
         <p>
           {" "}
@@ -86,13 +109,13 @@ export default function Projects() {
         <br></br>
         <h1 className="AIpaper">Risk Analysis of Growth in AI Capabilities</h1>
         <p>
-          <a
+          {/* <a
             href="ML-growth-paper.pdf"
             className="AIEssayTitle"
             download="ML-growth-paper.pdf"
           >
             Download Paper Here
-          </a>
+          </a> */}
         </p>
         <p>
           This paper dives deep into the risks that unaligned AI pose to our

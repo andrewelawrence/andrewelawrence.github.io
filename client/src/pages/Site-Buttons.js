@@ -49,7 +49,7 @@ export default function SiteButtons() {
           </button>
         </a>
 
-        <a
+        {/* <a
           href="https://www.thingiverse.com/andrewelawrence/designs"
           target="_blank"
           rel="noopener noreferrer"
@@ -57,7 +57,7 @@ export default function SiteButtons() {
           <button className="thingiverse-btn">
             <i class="fa fa-crop"></i>
           </button>
-        </a>
+        </a> */}
         <a
           href="mailto:andrew.e.lawrence@gmail.com"
           target="_blank"
