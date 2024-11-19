@@ -25,17 +25,25 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
     display: block;
   }
 
-  body {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 500;
-    background-color: ${({ theme }) => theme.colors?.body};
-    color: ${({ theme }) => theme.colors?.text[100]};
-  }
+//   body {
+//     font-family: 'IBM Plex Mono', monospace;
+//     font-weight: 500;
+//     background-color: ${({ theme }) => theme.colors?.body};
+//     color: ${({ theme }) => theme.colors?.text[100]};
+//   }
+
+        body {
+                font-family: 'Lunasima', monospace;
+                font-weight: 400;
+                background-color: ${({ theme }) => theme.colors?.body};
+                color: ${({ theme }) => theme.colors?.text[100]};
+
+        }
 
   /* ===== Custom Scroll Bar ===== */
   /* width */
   ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
   }
   /* Track */
   ::-webkit-scrollbar-track {

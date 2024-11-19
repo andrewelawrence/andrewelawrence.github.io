@@ -1,16 +1,19 @@
 import About from "./commands/About";
+import Banner from "./commands/Banner";
+import Blog from "./commands/Blog";
+// import Contact from "./commands/Contact";
 import Clear from "./commands/Clear";
-import Echo from "./commands/Echo";
+// import Echo from "./commands/Echo";
 import Education from "./commands/Education";
-import Email from "./commands/Email";
+// import Email from "./commands/Email";
 import GeneralOutput from "./commands/GeneralOutput";
-import Gui from "./commands/Gui";
+// import Gui from "./commands/Gui";
 import Help from "./commands/Help";
-import Welcome from "./commands/Welcome";
 import History from "./commands/History";
 import Projects from "./commands/Projects";
-import Socials from "./commands/Socials";
+// import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
+// import Welcome from "./commands/Welcome";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -35,19 +38,15 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
       {
         {
           about: <About />,
+          banner: <Banner />,
+          blog: <Blog />,
           clear: <Clear />,
-          echo: <Echo />,
+        //   contact: <Contact />,
           education: <Education />,
-          email: <Email />,
-          gui: <Gui />,
           help: <Help />,
           history: <History />,
           projects: <Projects />,
-          pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
-          socials: <Socials />,
-          themes: <Themes />,
-          welcome: <Welcome />,
-          whoami: <GeneralOutput>visitor</GeneralOutput>,
+          themes: <Themes />
         }[cmd]
       }
     </OutputContainer>
