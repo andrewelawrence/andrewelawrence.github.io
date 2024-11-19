@@ -1,0 +1,23 @@
+Client Folder
+- public/: Place your static assets like index.html, images, or favicons here. This ensures that React builds are served correctly.
+- src/: Organize your source code into logical components:
+  - components/: Contains reusable components like your terminal interface (TerminalComponent), navbar, etc.
+  - pages/: This directory is useful for larger applications that may have multiple views. For instance, each view (like About, Projects, Blog) can be a separate component.
+  - styles/: Centralizes all your CSS files, including Tailwind's index.css file, custom styles, etc.
+- tailwind.config.js: This file is where you configure Tailwind-specific settings (like custom colors, breakpoints, etc.).
+- postcss.config.js: Handles your Tailwind and PostCSS build settings.
+
+Server Folder
+- server/: This folder will be for the backend functionality (Express server). Here, you can place API routes and utility functions (like AWS S3 helpers for serving blog or project data dynamically).
+- controllers/: Holds logic for handling different API requests (e.g., fetching blog posts, projects).
+- routes/: Contains your Express route handlers.
+- config/: Store any configuration files (AWS credentials, environment variables).
+
+Docs Folder
+This is where you will keep documentation and content for your portfolio.
+blog/ and essays/: You can store blog posts and essays in Markdown format here. This keeps your content separate from your codebase.
+CNAME: If you’re using a custom domain with GitHub Pages, keep the CNAME file here to configure the domain.
+
+Global Files
+.gitignore: Essential to avoid pushing node_modules, build files, and sensitive data to GitHub.
+README.md: Document your project setup, architecture, and how to contribute if you want others to work on it.
