@@ -3,7 +3,7 @@ import { normalize } from "styled-normalize";
 
 const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   ${normalize}
-  
+
   *, ::before, ::after {
     border-width: 0;
     border-style: solid;
@@ -28,16 +28,18 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
 //   body {
 //     font-family: 'IBM Plex Mono', monospace;
 //     font-weight: 500;
-//     background-color: ${({ theme }) => theme.colors?.body};
-//     color: ${({ theme }) => theme.colors?.text[100]};
+//     background-color: ${({ theme }) => theme.colors?.background};
+//     color: ${({ theme }) => theme.colors?.text.plain};
 //   }
 
         body {
-                font-family: 'Lunasima', monospace;
+                font-family: 'Lunasima';
+                font-family: monospace;
                 font-weight: 400;
-                background-color: ${({ theme }) => theme.colors?.body};
-                color: ${({ theme }) => theme.colors?.text[100]};
+                font-size: 14px;
 
+                background-color: ${({ theme }) => theme.colors?.background};
+                color: ${({ theme }) => theme.colors?.text.plain};
         }
 
   /* ===== Custom Scroll Bar ===== */
@@ -47,7 +49,7 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   }
   /* Track */
   ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors?.body};
+    background: ${({ theme }) => theme.colors?.background};
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
@@ -59,9 +61,9 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   }
 
   input[type=text] {
-    background-color: ${({ theme }) => theme.colors?.body};
-    color: ${({ theme }) => theme.colors?.text[100]};
-    caret-color: ${({ theme }) => theme.colors?.primary};
+    background-color: ${({ theme }) => theme.colors?.background};
+    color: ${({ theme }) => theme.colors?.text.plain};
+    caret-color: ${({ theme }) => theme.colors?.cursor};
   }
   input[type=text]:focus-visible {
     outline: none;

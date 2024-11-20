@@ -25,7 +25,7 @@ export const PreName = styled.pre`
 `;
 
 export const PreWrapper = styled.div`
-//   text-align: center;
+  text-align: center;
 `;
 
 export const PreNameMobile = styled.pre`
@@ -38,9 +38,9 @@ export const PreNameMobile = styled.pre`
 `;
 
 export const PreImg = styled.pre`
-//   @media (max-width: 550px) {
-//     display: none;
-//   }
+  @media (max-width: 550px) {
+    display: none;
+  }
 `;
 
 export const Seperator = styled.div`
@@ -49,17 +49,17 @@ export const Seperator = styled.div`
 `;
 
 export const Cmd = styled.span`
-//   color: ${({ theme }) => theme.colors?.primary};
+  color: ${({ theme }) => theme.colors?.text.commands};
 `;
 
 export const Link = styled.a`
-//   color: ${({ theme }) => theme.colors?.secondary};
-//   text-decoration: none;
+  color: ${({ theme }) => theme.colors?.text.links};
+  text-decoration: none;
 //   line-height: 1.5rem;
-//   white-space: nowrap;
-//   border-bottom: 1px dashed ${({ theme }) => theme.colors?.secondary};
+  white-space: nowrap;
+  border-bottom: 1px dashed ${({ theme }) => theme.colors?.text.links};
 
-//   &:hover {
-//     border-bottom-style: solid;
-//   }
+  &:hover {
+    border-bottom-style: solid;
+  }
 `;

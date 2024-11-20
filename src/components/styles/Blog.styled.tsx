@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BlogsIntro = styled.div`
 //   margin-top: 0.5rem;
 //   margin-bottom: 1rem;
-  line-height: 1.5rem;
+//   line-height: 1.5rem;
 `;
 
 export const BlogContainer = styled.div`
@@ -17,8 +17,8 @@ export const BlogTitle = styled.div`
 `;
 
 export const BlogDesc = styled.div`
-//   color: ${({ theme }) => theme.colors?.text[200]};
-  text-align: justify;
-  line-height: 1.5rem;
-//   max-width: 500px;
+  color: ${({ theme }) => theme.colors?.text.light};
+//   text-align: justify;
+//   line-height: 1.5rem;
+  max-width: 500px;
 `;
