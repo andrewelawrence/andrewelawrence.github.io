@@ -1,24 +1,28 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const BlogsIntro = styled.div`
-//   margin-top: 0.5rem;
-//   margin-bottom: 1rem;
-//   line-height: 1.5rem;
+export const BlogsContainer = styled.div`
+        margin-bottom: 1rem;
 `;
 
-export const BlogContainer = styled.div`
-//   margin-top: 0.5rem;
-//   margin-bottom: 0.875rem;
+export const BlogsIntro = styled.div`
+        max-width: 500px;
 `;
 
 export const BlogTitle = styled.div`
-  font-weight: 700;
-//   margin-bottom: 0.25rem;
+        font-weight: 700;
+        max-width: 500px;
 `;
 
 export const BlogDesc = styled.div`
-  color: ${({ theme }) => theme.colors?.text.light};
-//   text-align: justify;
-//   line-height: 1.5rem;
-  max-width: 500px;
+        max-width: 500px;
+`;
+
+export const BlogTags = styled.div`
+        color: ${({ theme }) => theme.colors?.text.light};
+        max-width: 500px;
+        margin-bottom: 1rem;
+`;
+
+export const BlogEndList = styled.div`
+        margin-bottom: -1rem;
 `;
