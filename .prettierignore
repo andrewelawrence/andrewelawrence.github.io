@@ -1,0 +1,12 @@
+# Ignore everything
+/*
+
+# Except this folder
+!.eslintrc.json
+!.prettierrc
+!index.html
+!tsconfig.json
+!tsconfig.node.json
+!vite.config.ts
+!package.json
+!/src
