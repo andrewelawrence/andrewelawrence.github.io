@@ -226,23 +226,23 @@ function print() { __p += __j.call(arguments, '') }
                 border-bottom-style: solid;
         }
 `,vA=()=>L.jsx(dA,{"data-testid":"banner",children:L.jsxs("div",{className:"info-section",children:[L.jsx(pA,{children:`        
-                   888
-                   888
-                   888
- .d88b.  888  888 888888  .d88b.  88888b.
- d8P  Y8b 'Y8bd8P' 888    d88""88b 888 "88b
- 88888888   X88K   888    888  888 888  888
- Y8b.     .d8""8b. Y88b.  Y88..88P 888  888
- "Y8888  888  888  "Y888  "Y88P"  888  888"
+                   888                      
+                   888                      
+                   888                      
+  .d88b.  888  888 888888  .d88b.  88888b.  
+ d8P  Y8b 'Y8bd8P' 888    d88""88b 888 "88b 
+ 88888888   X88K   888    888  888 888  888 
+ Y8b.     .d8""8b. Y88b.  Y88..88P 888  888 
+  "Y8888  888  888  "Y888  "Y88P"  888  888 
           `}),L.jsx(hA,{children:L.jsx(gA,{children:`
-                   888
-                   888
-                   888
- .d88b.  888  888 888888  .d88b.  88888b.
- d8P  Y8b 'Y8bd8P' 888    d88""88b 888 "88b
- 88888888   X88K   888    888  888 888  888
- Y8b.     .d8""8b. Y88b.  Y88..88P 888  888
- "Y8888  888  888  "Y888  "Y88P"  888  888"
+                   888                      
+                   888                      
+                   888                      
+  .d88b.  888  888 888888  .d88b.  88888b.  
+ d8P  Y8b 'Y8bd8P' 888    d88""88b 888 "88b 
+ 88888888   X88K   888    888  888 888  888 
+ Y8b.     .d8""8b. Y88b.  Y88..88P 888  888 
+  "Y8888  888  888  "Y888  "Y88P"  888  888 
           `})}),L.jsxs("div",{children:["This project's source code can be found in it's"," ",L.jsx(hs,{href:"https://github.com/andrewelawrence/andrewelawrence.github.io",target:"_blank",children:"GitHub repo"}),"."]}),L.jsxs("div",{children:["Type `",L.jsx(ap,{children:"help"}),"` for a list of available commands."]})]})}),yA=ee.div`
         margin-bottom: 1rem;
 `,wA=ee.div`
