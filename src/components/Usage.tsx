@@ -1,24 +1,33 @@
-import { UsageDiv } from "./styles/Output.styled";
+import { UsageDiv } from './styles/Output.styled';
+import { generateTabs } from '../utils/funcs';
 
 type Props = {
-  cmd: "themes" | "projects" | "contact";
-  marginY?: boolean;
+        cmd: 'themes';
+        marginY?: boolean;
 };
 
 const arg = {
-  themes: { placeholder: "theme-name", example: "ubuntu" },
-  projects: { placeholder: "project-no", example: "4" },
-  contact: { placeholder: "contact-no", example: "1" },
+        themes: { argument: 'set', placeholder: 'name', example: 'dark' },
 };
 
 const Usage: React.FC<Props> = ({ cmd, marginY = false }) => {
-  const action = cmd === "themes" ? "set" : "go";
-  return (
-    <UsageDiv data-testid={`${cmd}-invalid-arg`} marginY={marginY}>
-      Usage: {cmd} {action} &#60;{arg[cmd].placeholder}&#62; <br />
-      eg: {cmd} {action} {arg[cmd].example}
-    </UsageDiv>
-  );
+        let argument = '';
+        let placeholder = '';
+        let example = '';
+
+        argument = arg[cmd].argument;
+        placeholder = arg[cmd].placeholder;
+        example = arg[cmd].example;
+
+        return (
+                <UsageDiv
+                        data-testid={`${cmd}-invalid-arg`}
+                        marginY={marginY}
+                >
+                        Usage: {cmd} {argument} &#60;{placeholder}&#62; <br />
+                        eg: {cmd} {argument} {example}
+                </UsageDiv>
+        );
 };
 
 export default Usage;
