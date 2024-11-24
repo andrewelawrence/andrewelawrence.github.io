@@ -43,7 +43,8 @@ const Themes: React.FC = () => {
                         <ThemesWrapper>
                                 {myThemes.map((myTheme) => (
                                         <ThemeSpan key={myTheme}>
-                                                {myTheme}{generateTabs(1)}
+                                                {myTheme}
+                                                {generateTabs(1)}
                                         </ThemeSpan>
                                 ))}
                         </ThemesWrapper>

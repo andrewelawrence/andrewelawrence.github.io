@@ -65,7 +65,6 @@ describe('Terminal Component', () => {
                         ).toBe(1);
                 });
 
-
                 it("should render Welcome component when user type 'banner' cmd", async () => {
                         await user.type(terminalInput, 'clear{enter}');
                         await user.type(terminalInput, 'banner{enter}');

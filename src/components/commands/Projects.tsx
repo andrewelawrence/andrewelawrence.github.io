@@ -16,7 +16,10 @@ import Usage from '../Usage';
 const Projects: React.FC = () => {
         return (
                 <div data-testid="projects">
-                        <ProjectsIntro>Eventually this command will list and link different projects I've worked on.</ProjectsIntro>
+                        <ProjectsIntro>
+                                Eventually this command will list and link
+                                different projects I've worked on.
+                        </ProjectsIntro>
                         {/* {projects.map(({ id, title, desc }) => (
                                 <ProjectContainer key={id}>
                                         <ProjectTitle>{`${id}. ${title}`}</ProjectTitle>

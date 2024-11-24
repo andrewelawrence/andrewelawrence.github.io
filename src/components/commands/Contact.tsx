@@ -1,5 +1,9 @@
 import { useContext, useEffect } from 'react';
-import { ContactsContainer, ContactsIntro, ContactListEnd } from '../styles/Contact.styled';
+import {
+        ContactsContainer,
+        ContactsIntro,
+        ContactListEnd,
+} from '../styles/Contact.styled';
 import { CmdDesc, CmdList, HelpWrapper } from '../styles/Help.styled';
 import {
         checkRedirect,
@@ -28,8 +32,8 @@ const Contacts: React.FC = () => {
                                                 </Link>
                                         </CmdList>
                                 ))}
-                                <ContactListEnd /> <br />
-                        I go by @andrewelawrence or @exton on most platforms.
+                                <ContactListEnd /> <br />I go by
+                                @andrewelawrence or @exton on most platforms.
                         </ContactsContainer>
                 </HelpWrapper>
         );

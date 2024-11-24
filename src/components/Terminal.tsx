@@ -32,7 +32,7 @@ export const commands: Command = [
         { cmd: 'banner', desc: 'Display the welcome banner', tab: 8 },
         { cmd: 'blog', desc: 'Read my blog', tab: 10 },
         { cmd: 'clear', desc: 'Clear the terminal and history', tab: 9 },
-        { cmd: 'contact', desc: 'Get in touch with me', tab: 7, },
+        { cmd: 'contact', desc: 'Get in touch with me', tab: 7 },
         { cmd: 'education', desc: 'My education background', tab: 5 },
         { cmd: 'experience', desc: 'My professional experience', tab: 4 },
         { cmd: 'help', desc: 'Check available commands', tab: 10 },

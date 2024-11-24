@@ -20,10 +20,7 @@ const Usage: React.FC<Props> = ({ cmd, marginY = false }) => {
         example = arg[cmd].example;
 
         return (
-                <UsageDiv
-                        data-testid={`${cmd}-invalid-arg`}
-                        marginY={marginY}
-                >
+                <UsageDiv data-testid={`${cmd}-invalid-arg`} marginY={marginY}>
                         Usage: {cmd} {argument} &#60;{placeholder}&#62; <br />
                         eg: {cmd} {argument} {example}
                 </UsageDiv>

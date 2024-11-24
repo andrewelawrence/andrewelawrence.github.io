@@ -1,59 +1,48 @@
 [
-  {
-    "id": "9999",
-    "title": "Blog welcome",
-    "author": "Andrew E. Lawrence",
-    "date": "11/24/2024",
-    "tags": [
-      "Admin"
-    ],
-    "description": "Read about my plans for this blog.",
-    "txtUrl": "/assets/blogs/9999/Blog-Welcome.txt",
-    "pdfUrl": "/assets/blogs/9999/Blog-Welcome.pdf"
-  },
-  {
-    "id": "3",
-    "title": "Beyond the Frame of Our Lives: All Light, Everywhere, Surveillance, and the Illusion of Objectivity",
-    "author": "Andrew E. Lawrence",
-    "date": "05/05/2024",
-    "tags": [
-      "Essay",
-      "Surveillance",
-      "The Lantern"
-    ],
-    "description": "This essay explores the work of All Light, Everywhere (2021) to critque the perceived objectivity of surveillance technologies and raise ethical concerns about their societal impact.",
-    "txtUrl": "/assets/blogs/3/The-Lantern-Essay-on-Surveillance.txt",
-    "pdfUrl": "/assets/blogs/3/The-Lantern-Essay-on-Surveillance.pdf"
-  },
-  {
-    "id": "2",
-    "title": "Morality, Capability, and the Ethics of Decision-Making AI",
-    "author": "Andrew E. Lawrence",
-    "date": "12/15/2023",
-    "tags": [
-      "AI Ethics",
-      "Algorithmic Fairness",
-      "Human-algorithm Interaction",
-      "Morality",
-      "Research Paper"
-    ],
-    "description": "This paper addresses the growing concerns about decision-making algorithms, focusing on whether they perpetuate discriminatory practices and exhibit unfair behaviors, and explores the ethical implications of their widespread use in society.",
-    "txtUrl": "/assets/blogs/2/Ethics-of-Decision-Making-Algorithms.txt",
-    "pdfUrl": "/assets/blogs/2/Ethics-of-Decision-Making-Algorithms.pdf"
-  },
-  {
-    "id": "1",
-    "title": "Pacing Progress; Mitigating Risks in the Rapid Evolution of AI/ML Systems",
-    "author": "Andrew E. Lawrence",
-    "date": "11/07/2022",
-    "tags": [
-      "AI Ethics",
-      "Ethics",
-      "Research Paper",
-      "Risk"
-    ],
-    "description": "This essay explores the ethical and practical challenges of developing AI systems, ultimately calling for more cautious and transparent development.",
-    "txtUrl": "/assets/blogs/1/AI-ML-Risk-Migitation.txt",
-    "pdfUrl": "/assets/blogs/1/AI-ML-Risk-Migitation.pdf"
-  }
+        {
+                "id": "9999",
+                "title": "Blog welcome",
+                "author": "Andrew E. Lawrence",
+                "date": "11/24/2024",
+                "tags": ["Admin"],
+                "description": "Read about my plans for this blog.",
+                "txtUrl": "/assets/blogs/9999/Blog-Welcome.txt",
+                "pdfUrl": "/assets/blogs/9999/Blog-Welcome.pdf"
+        },
+        {
+                "id": "3",
+                "title": "Beyond the Frame of Our Lives: All Light, Everywhere, Surveillance, and the Illusion of Objectivity",
+                "author": "Andrew E. Lawrence",
+                "date": "05/05/2024",
+                "tags": ["Essay", "Surveillance", "The Lantern"],
+                "description": "This essay explores the work of All Light, Everywhere (2021) to critque the perceived objectivity of surveillance technologies and raise ethical concerns about their societal impact.",
+                "txtUrl": "/assets/blogs/3/The-Lantern-Essay-on-Surveillance.txt",
+                "pdfUrl": "/assets/blogs/3/The-Lantern-Essay-on-Surveillance.pdf"
+        },
+        {
+                "id": "2",
+                "title": "Morality, Capability, and the Ethics of Decision-Making AI",
+                "author": "Andrew E. Lawrence",
+                "date": "12/15/2023",
+                "tags": [
+                        "AI Ethics",
+                        "Algorithmic Fairness",
+                        "Human-algorithm Interaction",
+                        "Morality",
+                        "Research Paper"
+                ],
+                "description": "This paper addresses the growing concerns about decision-making algorithms, focusing on whether they perpetuate discriminatory practices and exhibit unfair behaviors, and explores the ethical implications of their widespread use in society.",
+                "txtUrl": "/assets/blogs/2/Ethics-of-Decision-Making-Algorithms.txt",
+                "pdfUrl": "/assets/blogs/2/Ethics-of-Decision-Making-Algorithms.pdf"
+        },
+        {
+                "id": "1",
+                "title": "Pacing Progress; Mitigating Risks in the Rapid Evolution of AI/ML Systems",
+                "author": "Andrew E. Lawrence",
+                "date": "11/07/2022",
+                "tags": ["AI Ethics", "Ethics", "Research Paper", "Risk"],
+                "description": "This essay explores the ethical and practical challenges of developing AI systems, ultimately calling for more cautious and transparent development.",
+                "txtUrl": "/assets/blogs/1/AI-ML-Risk-Migitation.txt",
+                "pdfUrl": "/assets/blogs/1/AI-ML-Risk-Migitation.pdf"
+        }
 ]
