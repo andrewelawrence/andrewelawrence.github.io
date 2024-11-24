@@ -33,7 +33,7 @@
                 "format:check": "prettier --check .",
                 "format": "prettier --write .",
                 "predeploy": "npm run build",
-                "deploy": "gh-pages -d build"
+                "deploy": "gh-pages -b master -d dist"
         },
         "dependencies": {
                 "@aws-sdk/client-s3": "^3.697.0",
