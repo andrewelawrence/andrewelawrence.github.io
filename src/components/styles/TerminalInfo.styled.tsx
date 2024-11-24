@@ -1,14 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.span`
-  display: inline-block;
-//   margin-right: 0.75rem;
+        display: inline-block;
+        //   margin-right: 0.75rem;
 `;
 
 export const WebsiteName = styled.span`
-  color: ${({ theme }) => theme.colors?.text.primary};
+        color: ${({ theme }) => theme.colors?.text.primary};
 `;
 
 export const User = styled.span`
-  color: ${({ theme }) => theme.colors?.text.secondary};
+        color: ${({ theme }) => theme.colors?.text.secondary};
 `;
