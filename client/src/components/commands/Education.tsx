@@ -17,11 +17,11 @@ const Education: React.FC = () => {
 
 const eduBg = [
         {
-                title: 'B.Sc in Computer Science',
+                title: 'BS in Computer Science',
                 desc: 'Tufts University | 2022 - 2026 (In Progress)',
         },
         {
-                title: 'B.A in Science, Technology, and Society',
+                title: 'BA in Science, Technology, and Society',
                 desc: 'Tufts University | 2022 - 2026 (In Progress)',
         },
 ];
