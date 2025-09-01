@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
+# Use github-pages to pin a compatible Jekyll and dependency set
+gem 'github-pages', group: :jekyll_plugins
+
 group :jekyll_plugins do
-  gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
@@ -9,5 +11,5 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# Remove direct jekyll dependency to avoid conflicts with github-pages
+# Remove extraneous gems that can conflict with pages' dependency set
