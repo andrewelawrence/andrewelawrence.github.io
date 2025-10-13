@@ -1,17 +1,21 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Ignore the directory for local files during development
-local/
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
+# Logs
+*.log
 
-# Ignore files created by npm
-node_modules
-package-lock.json
+# Local environment files
+.env
+.env.local
+.env.*.local
 
-# Ignore the vendor file and bundle for alternative installation
-vendor/
-.bundle/
+_site
