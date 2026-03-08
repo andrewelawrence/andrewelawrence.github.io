@@ -220,7 +220,8 @@
         const toc = document.querySelector("nav.toc");
         const about = document.getElementById("about");
         if (toc && about) {
-          const tocTop = about.getBoundingClientRect().top;
+          const tocTop =
+            about.getBoundingClientRect().top + window.scrollY;
           toc.style.top = tocTop + "px";
 
           ["about", "portfolio"].forEach((id) => {
